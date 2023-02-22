@@ -513,7 +513,7 @@ img {
 }
 
 .work__info_right {
-    background-image: url(/img/work-1.png);
+    background-image: url(../img/work-1.png);
     background-repeat: no-repeat;
     min-height: 460px;
     background-size: cover;
