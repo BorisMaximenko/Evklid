@@ -10,7 +10,7 @@
     font-style: normal;
     font-weight: 400;
     src: local('Montserrat'), 
-    url(/fonts/static/Montserrat-Regular.ttf);
+    url(../fonts/static/Montserrat-Regular.ttf);
 }
 
 @font-face {
@@ -18,7 +18,7 @@
     font-style: normal;
     font-weight: 500;
     src: local('Montserrat'), 
-    url(/fonts/static/Montserrat-SemiBold.ttf);
+    url(../fonts/static/Montserrat-SemiBold.ttf);
 }
 
 @font-face {
@@ -26,7 +26,7 @@
     font-style: normal;
     font-weight: 700;
     src: local('Montserrat'), 
-    url(/fonts/static/Montserrat-Bold.ttf);
+    url(../fonts/static/Montserrat-Bold.ttf);
 }
 
 @font-face {
@@ -34,7 +34,7 @@
     font-style: normal;
     font-weight: 800;
     src: local('Montserrat'), 
-    url(/fonts/static/Montserrat-ExtraBold.ttf);
+    url(../fonts/static/Montserrat-ExtraBold.ttf);
 }
 
 * {
@@ -284,7 +284,7 @@ img {
 .header__search{
     width: 24px;
     height: 25px;
-    background-image: url(/img/search.svg);
+    background-image: url(../img/search.svg);
     background-repeat: no-repeat;  
     background-position: center;
     background-size: cover;
@@ -386,7 +386,7 @@ img {
 }
 
 .about__col_left {
-    background-image: url(/img/about-left.png);
+    background-image: url(../img/about-left.png);
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
